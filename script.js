@@ -10,7 +10,7 @@ function bipul(){
 		name.style.border = "1px solid red";
 		return false;
 	}
-	else if (name.value.trim().length<4) {
+	else if (name.value.trim().length<5) {
 		alert("Too short charractar");
 		return false;
 	}

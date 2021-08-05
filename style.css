@@ -1,0 +1,64 @@
+.box {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../img/Discover-the-9-Best-Chatbot-Examples-of-2020-vector-1-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.form{
+	width: 60%;
+	margin: 0 auto;
+}
+.form input {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+	border: .5px solid #acacac;
+	font-size: 18px;
+	color: #000;
+	border-radius: 30px;
+	background: white;
+}
+h2{
+	text-align: center;
+	color: #0c82ff;
+	margin-bottom: 25px;
+}
+.form p {
+	text-align: center;
+	font-size: 16px;
+}
+.box2 {
+	width: 60%;
+	margin: 0 auto;
+}
+.box2 p{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/* result page  */
+
+section {
+	height: 100vh;
+	width: 100%;
+	background-image: url("img/isaac-benhesed-onLbXleIkds-unsplash-removebg-preview.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.fas.fa-angry {
+	font-size: 70px;
+	color: red;
+}
+.fas.fa-smile{
+	font-size: 70px;
+	color: rgb(255, 0, 242);
+}

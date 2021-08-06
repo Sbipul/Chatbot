@@ -1,47 +1,30 @@
-.box {
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-image: url("./img/Discover-the-9-Best-Chatbot-Examples-of-2020-vector-1-1.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Sans+JP:wght@500&display=swap');
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	/* font-family: 'Noto Sans JP', sans-serif; */
+}
+.font-family{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.my-bg1 {
+	background: #0b0b0b4f;
+	color: white;
+	box-shadow: 10px 10px 20px #353535,-10px -10px 64px #fff;
+	border-radius: 20px;
+}
+.my-bg2 {
+	background: #d1d1d14f;
+	color: white;
+	box-shadow: 10px 10px 20px #353535,-10px -10px 64px #fff;
+	border-radius: 20px;
+}
+.bg-custom {
+	background: linear-gradient(217deg, rgba(0, 255, 255, 0.8), rgba(255, 0, 0, 0) 70.71%),
+		linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+		linear-gradient(336deg, rgba(255, 0, 234, 0.8), rgba(0, 0, 255, 0) 70.71%);
 
 }
-.form{
-	width: 60%;
-	margin: 0 auto;
-}
-.form input {
-	padding: 10px;
-	width: 100%;
-	margin-bottom: 10px;
-	text-align: center;
-	border: .5px solid #acacac;
-	font-size: 18px;
-	color: #000;
-	border-radius: 30px;
-	background: white;
-}
-h2{
-	text-align: center;
-	color: #0c82ff;
-	margin-bottom: 25px;
-}
-.form p {
-	text-align: center;
-	font-size: 16px;
-}
-.box2 {
-	width: 60%;
-	margin: 0 auto;
-}
-.box2 p{
-	font-size: 20px;
-	text-align: center;
-}
-
 
 /* result page  */
 
@@ -58,7 +41,8 @@ section {
 	font-size: 70px;
 	color: red;
 }
-.fas.fa-smile{
+
+.fas.fa-smile {
 	font-size: 70px;
 	color: rgb(255, 0, 242);
 }

@@ -41,6 +41,7 @@ function bipul(){
 var btn = document.getElementById("btn");
 var inp = document.querySelectorAll("input");
 var ps = document.querySelectorAll("p");
+
 btn.addEventListener("click",function(event){
     // event.preventDefault();
     if(inp[0].value == ""){
@@ -89,9 +90,16 @@ btn.addEventListener("click",function(event){
 		ps[0].innerHTML= "" + '   ' + '<br>' + "Only benson...";
     }else if(inp[0].value == "good" || inp[0].value == "good." || inp[0].value == "fine." || inp[0].value == "fine" || inp[0].value == "well" || inp[0].value == "well." || inp[0].value == "excellent" || inp[0].value == "excellent." || inp[0].value == "fantastic" || inp[0].value == "fantastic." || inp[0].value == "valo achi." || inp[0].value == "valo achi" || inp[0].value == "valo" || inp[0].value == "choltese arki."){
 		ps[0].innerHTML= "" + '   ' + '<br>' + "Ok.Thats fine.";
-    }else {
-        var input0Data = inp[0].value;
-        ps[0].innerHTML= "" + '   ' + "<br/>" + "Make sure you are using lowercase text.";
+    }else if(inp[0].value == "can you help me?" || inp[0].value == "can you help me" || inp[0].value == "can you help me."){
+		ps[0].innerHTML= "" + '   ' + '<br>' + "About what?";
+    }else if (inp[0].value == "money?" || inp[0].value == "money" || inp[0].value == "money." || inp[0].value == "Money") {
+		ps[0].innerHTML= "" + '   ' + '<br>' + "Work hard and keep faith to your creator.";
+	}else if (inp[0].value == "girlfriend" || inp[0].value == "girlfriend?" || inp[0].value == "girlfriend." || inp[0].value == "Girlfriend") {
+		ps[0].innerHTML= "" + '   ' + '<br>' + "Propose a girl first...then do what you want...";
+	}else if (inp[0].value == "anything?" || inp[0].value == "anything" || inp[0].value == "anything." || inp[0].value == "something?" || inp[0].value == "something" || inp[0].value == "something.") {
+		ps[0].innerHTML= "" + '   ' + '<br>' + "I can help about only Money and girlfrind.";
+	}else {
+        ps[0].innerHTML= "" + '   ' + "<br/>" + "I have no idea about this..& Make sure you are using lowercase text.";
     }
     
 });
